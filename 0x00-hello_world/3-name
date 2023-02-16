@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 3-name -o  C is fun
+gcc $CFILE -o C is fun
