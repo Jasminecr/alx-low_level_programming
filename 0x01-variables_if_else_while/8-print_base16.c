@@ -11,13 +11,13 @@ int main(void)
 
 	for (n = 48; n <= 57; n++);
 	{
-		printf("%d", n);
+		putchar(n);
 	}
 
 	for (m = 97; m <= 102; m++);
 	{
-		printf("%d", m);
+		putchar(m);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
